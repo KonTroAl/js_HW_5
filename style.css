@@ -1,0 +1,24 @@
+.desk{
+    height: 600px;
+    width: 600px;
+    border: 1px solid #000;
+    position: relative;
+}    
+
+.field {
+    height: 480px;
+    width: 480px;
+    border: 1px solid #000;
+    position: relative;
+    margin: 50px auto;
+}
+
+.black_cell {
+    height: 50px;
+    width: 50px;
+}
+
+.white_cell {
+    height: 50px;
+    width: 50px;
+}
