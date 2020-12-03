@@ -5,17 +5,30 @@
 
 let desk = document.querySelector(".desk")
 
-let black_cell = document.createElement("div")
-black_cell.className = "black_cell"
-
-let white_cell = document.createElement("div")
-white_cell.className = "white_cell"
-
 const chess_field = document.createElement("div")
 chess_field.className = "field"
 
+let filed_name = document.createElement("ul")
 
+function chess_desk() {
+    let i = 0;
+    let count = 0;
+    while (count < 8 * 8) {
+        let cell = document.createElement('div');
+        chess_field.appendChild(cell);
+
+        cell.classList.add('cell');
+
+        if (i && i % 2)
+            cell.classList.add('black_cell')
+
+        i += ((i + 2) % 9) ? 1 : 2;
+        count++;
+    }
+}
 
 desk.appendChild(chess_field)
 
 console.log(desk)
+
+chess_desk()
