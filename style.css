@@ -1,8 +1,11 @@
+
 .desk{
     height: 500px;
     width: 500px;
     border: 1px solid #000;
     position: relative;
+    margin: 0;
+    padding: 0; 
 }    
 
 .field {
@@ -22,3 +25,34 @@
     background-color: #000;
 }
 
+.field_name_left {
+    padding: 0px 5px;    
+    position: absolute;
+    width: 1em;
+    font-size: 45px;
+}
+
+.field_name_right {
+    padding: 0px 445px;    
+    position: absolute;
+    transform: rotate(-180deg);
+    width: 1em;
+    font-size: 45px;
+}
+
+.field_name_top {
+    margin: 0 auto;
+    padding: 0px 25px;    
+    position: absolute;
+    transform: rotate(-180deg);
+    font-size: 40px;
+    letter-spacing: 1.3ch;
+}
+
+.field_name_bottom {
+    padding: 410px 50px;    
+    position: absolute;
+    width: 1em;
+    font-size: 40px;
+    letter-spacing: 1.3ch;
+}
