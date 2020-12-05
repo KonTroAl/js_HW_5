@@ -1,0 +1,99 @@
+/* for task 1 */
+.desk{
+    height: 500px;
+    width: 500px;
+    border: 1px solid #000;
+    position: relative;
+    margin: 0;
+    padding: 0; 
+}    
+
+.field {
+    height: 450px;
+    width: 450px;
+    margin: 40px 40px;
+}
+
+.cell {
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid #000;
+}
+
+.black_cell {
+    background-color: #000;
+}
+
+.field_name_left {
+    padding: 0px 5px;    
+    position: absolute;
+    width: 1em;
+    font-size: 45px;
+}
+
+.field_name_right {
+    padding: 0px 445px;    
+    position: absolute;
+    transform: rotate(-180deg);
+    width: 1em;
+    font-size: 45px;
+}
+
+.field_name_top {
+    margin: 0 auto;
+    padding: 0px 25px;    
+    position: absolute;
+    transform: rotate(-180deg);
+    font-size: 40px;
+    letter-spacing: 1.3ch;
+}
+
+.field_name_bottom {
+    padding: 410px 50px;    
+    position: absolute;
+    width: 1em;
+    font-size: 40px;
+    letter-spacing: 1.3ch;
+}
+
+
+/* for task 2 */
+
+.basket {
+    display: flex;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.basket_text{
+    margin-top: 0 auto;
+    text-align: center;
+}
+
+/* for task 3 */
+
+.products {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    /* border: 1px solid #000; */
+    flex-direction: column;
+    align-content: space-around;
+
+}
+
+.product {
+    height: 100px;
+    width: 500px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+
+}
+
+.product_text {
+    margin-top: 0 auto;
+    text-align: left;
+}
