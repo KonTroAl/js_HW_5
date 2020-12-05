@@ -1,4 +1,4 @@
-
+/* for task 1 */
 .desk{
     height: 500px;
     width: 500px;
@@ -55,4 +55,13 @@
     width: 1em;
     font-size: 40px;
     letter-spacing: 1.3ch;
+}
+
+
+/* for task 2 */
+
+.basket {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
 }

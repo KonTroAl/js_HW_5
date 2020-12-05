@@ -5,6 +5,7 @@
 
 let desk = document.querySelector(".desk");
 
+
 const chess_field = document.createElement("div");
 chess_field.className = "field";
 
