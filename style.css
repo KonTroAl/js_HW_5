@@ -61,7 +61,13 @@
 /* for task 2 */
 
 .basket {
-    width: 150px;
+    display: flex;
+    width: 500px;
     height: 150px;
     border: 1px solid #000;
+}
+
+.basket_text{
+    margin-top: 0 auto;
+    text-align: center;
 }
